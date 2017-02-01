@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+#drawArea{
+  background-color: #F5F4F7;
+}
+
+#exporttoimage:link{
+    text-decoration: none;
+    color: black;
+}
+
+#brushMenu{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+#brushMenu #colorpicker{
+    height: 50px;
+    position: absolute;
+    left: 500px;
+    opacity: 0;
+    display: flex;
+}
+
+#brushMenu .colorIcon{
+    margin-top: 0;
+    width: 50px;
+    height: inherit;
+    margin: 5px;
+    border: 5px solid black;
+}
+
+#brushMenu .size{
+    display: inline-block;
+    align-self: center;
+}
+#brushMenu .size p{
+    display: inline;
+}
+
+#brushMenu .fa{
+    font-size: 52px;
+}
+
+.blueColor{
+    background-color: blue;
+}
+.greenColor{
+    background-color: green;
+}
+.redColor{
+    background-color: red;
+}
+.pinkColor{
+    background-color: purple;
+}
+
+#erase{
+    background-color: orange;
+}
+
+.menuBtn{
+    height: 50px;
+    width: 75px;
+    margin-bottom: 5px;
+    background-color: #A2A1AF;
+    text-align: center;
+    color: white;
+    border: none;
+}
+.menuBtn.activeBtn{
+    background-color: #9396E1;
+}
